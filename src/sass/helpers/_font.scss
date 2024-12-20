@@ -1,0 +1,7 @@
+@use "@/sass/helpers/mixins.scss" as m;
+
+@include m.font-load(Raleway, Bold, 700, normal);
+@include m.font-load(Raleway, Regular, 400, normal);
+@include m.font-load(Raleway, Light, 300, normal);
+@include m.font-load(Raleway, Medium, 500, normal);
+@include m.font-load(Raleway, Semibold, 600, normal);

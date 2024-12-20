@@ -1,0 +1,11 @@
+@use "@/sass/helpers/variables" as v;
+@use "@/sass/helpers/mixins.scss" as m;
+
+.header {
+  &__inner {
+    background-color: #dd763b;
+    height: m.torem(100);
+    background-color: #dd763b;
+    border-radius: 0 0 2rem 2rem;
+  }
+}
