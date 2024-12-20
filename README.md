@@ -1,58 +1,59 @@
-Task Manager
+# Task Manager
 
-  
+![Task Manager](https://img.shields.io/badge/React-v18.2.0-blue.svg) ![TypeScript](https://img.shields.io/badge/TypeScript-v5.2.3-blue.svg) ![Vite](https://img.shields.io/badge/Vite-v4.4.9-green.svg)
 
 A modern task management application built with React, TypeScript, and Vite. This project emphasizes simplicity and performance while providing features to track, manage, and organize tasks efficiently.
 
-Features
+## Features
 
-Add, Edit, and Delete Tasks
+- **Add, Edit, and Delete Tasks**
+- **Prioritize Tasks** with customizable categories
+- **Responsive Design** for all devices
+- **Dark Mode Support**
+- **Persistent Data** using local storage
+- **Search and Filter** tasks
 
-Prioritize Tasks with customizable categories
+## Prerequisites
 
-Responsive Design for all devices
+- Node.js v20.12.2+
+- npm v9.8.0+
 
-Dark Mode Support
+## Installation
 
-Persistent Data using local storage
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/task-manager.git
+   cd task-manager
+   ```
 
-Search and Filter tasks
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-Prerequisites
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-Node.js v20.12.2+
+4. Open the application in your browser:
+   ```
+   http://localhost:5173
+   ```
 
-npm v9.8.0+
-
-Installation
-
-Clone the repository:
-
-git clone https://github.com/your-username/task-manager.git
-cd task-manager
-
-Install dependencies:
-
-npm install
-
-Start the development server:
-
-npm run dev
-
-Open the application in your browser:
-
-http://localhost:5173
-
-Build for Production
+## Build for Production
 
 To build the application for production:
 
+```bash
 npm run build
+```
 
-The output will be available in the dist/ directory.
+The output will be available in the `dist/` directory.
 
-Project Structure
+## Project Structure
 
+```plaintext
 src/
 ├── components/       # Reusable UI components
 ├── pages/            # Page components
@@ -62,54 +63,47 @@ src/
 ├── context/          # Context API setup
 ├── assets/           # Static assets
 └── App.tsx           # Main application component
+```
 
-Style Enhancements
+## Style Enhancements
 
-Improved Theme: Revamped color palette for a modern look.
+- **Improved Theme:** Revamped color palette for a modern look.
+- **SCSS Refactor:** Consolidated SCSS files with modular naming conventions.
+- **Animations:** Added subtle animations using CSS transitions.
 
-SCSS Refactor: Consolidated SCSS files with modular naming conventions.
+## Scripts
 
-Animations: Added subtle animations using CSS transitions.
+- `npm run dev` - Start the development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint
+- `npm run format` - Format code with Prettier
 
-Scripts
+## Contributing
 
-npm run dev - Start the development server
+1. Fork the repository.
+2. Create a new feature branch:
+   ```bash
+   git checkout -b feature-name
+   ```
+3. Commit your changes:
+   ```bash
+   git commit -m "Add new feature"
+   ```
+4. Push to your forked repository:
+   ```bash
+   git push origin feature-name
+   ```
+5. Submit a pull request.
 
-npm run build - Build for production
-
-npm run preview - Preview production build
-
-npm run lint - Run ESLint
-
-npm run format - Format code with Prettier
-
-Contributing
-
-Fork the repository.
-
-Create a new feature branch:
-
-git checkout -b feature-name
-
-Commit your changes:
-
-git commit -m "Add new feature"
-
-Push to your forked repository:
-
-git push origin feature-name
-
-Submit a pull request.
-
-License
+## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-Contact
+## Contact
 
 For any inquiries or feedback, feel free to reach out:
 
-Email: ersultan.t16@gmail.com
-
-GitHub: RasReal
+- **Email:** ersultan.t16@gmail.com
+- **GitHub:** [your-username](https://github.com/Rasreal)
 
